@@ -1,0 +1,153 @@
+{
+  "asof": "2026-10-17",
+  "universe": "C:\\Users\\pruthvir\\IdeaProjects\\mom_500\\ind_nifty500list.csv",
+  "symbols_requested": 499,
+  "symbols_with_data": 494,
+  "years": 20,
+  "cost_per_side": 0.001,
+  "best_dual": {
+    "label": "nifty500|lb63|top10|M|dual",
+    "lookback": 63,
+    "k": 10,
+    "freq": "M",
+    "filter": "dual",
+    "cagr": 0.4406274989851875,
+    "total_return": 1480.1529827592221,
+    "max_dd": -0.6921169609633915,
+    "sharpe": 1.3675238721658507,
+    "turnover": 291.3915118301143,
+    "rebalances": 241,
+    "avg_cash": 1.604280141315752e-16,
+    "avg_holdings": 9.963338059550335,
+    "_rank": 0.33680995484067877
+  },
+  "rebalance_at_best_lookback": [
+    {
+      "label": "nifty500|lb63|top10|2W|dual",
+      "lookback": 63,
+      "k": 10,
+      "freq": "2W",
+      "filter": "dual",
+      "cagr": 0.38780623959690974,
+      "total_return": 700.7574630137515,
+      "max_dd": -0.7507056251031564,
+      "sharpe": 1.2418341374915962,
+      "turnover": 451.8815197463142,
+      "rebalances": 522,
+      "avg_cash": 0.0018229694146243657,
+      "avg_holdings": 9.931132266558638
+    },
+    {
+      "label": "nifty500|lb63|top10|M|dual",
+      "lookback": 63,
+      "k": 10,
+      "freq": "M",
+      "filter": "dual",
+      "cagr": 0.4406274989851875,
+      "total_return": 1480.1529827592221,
+      "max_dd": -0.6921169609633915,
+      "sharpe": 1.3675238721658507,
+      "turnover": 291.3915118301143,
+      "rebalances": 241,
+      "avg_cash": 1.604280141315752e-16,
+      "avg_holdings": 9.963338059550335
+    },
+    {
+      "label": "nifty500|lb63|top10|W|dual",
+      "lookback": 63,
+      "k": 10,
+      "freq": "W",
+      "filter": "dual",
+      "cagr": 0.33380078840309846,
+      "total_return": 316.304999846732,
+      "max_dd": -0.7771269229383814,
+      "sharpe": 1.0787802469410288,
+      "turnover": 663.2703381995162,
+      "rebalances": 1044,
+      "avg_cash": 0.0022280737289852807,
+      "avg_holdings": 9.913105124569576
+    }
+  ],
+  "yearly_strategy": [
+    {
+      "year": 2022,
+      "return": 0.24390550331604222,
+      "max_dd": -0.26103148639156015
+    },
+    {
+      "year": 2023,
+      "return": 0.8139080404212562,
+      "max_dd": -0.1823665886888095
+    },
+    {
+      "year": 2024,
+      "return": 0.6035809125906098,
+      "max_dd": -0.16760089962739888
+    },
+    {
+      "year": 2025,
+      "return": 0.04452149841355002,
+      "max_dd": -0.2616856250786056
+    },
+    {
+      "year": 2026,
+      "return": 0.6342648298762328,
+      "max_dd": -0.11597020262191182
+    }
+  ],
+  "yearly_ew_universe": [
+    {
+      "year": 2022,
+      "return": 0.035690334940153834,
+      "max_dd": -0.2118391702488095
+    },
+    {
+      "year": 2023,
+      "return": 0.37945095753483726,
+      "max_dd": -0.09821407543478555
+    },
+    {
+      "year": 2024,
+      "return": 0.23394641097017765,
+      "max_dd": -0.11717482004481516
+    },
+    {
+      "year": 2025,
+      "return": 0.052436554508892286,
+      "max_dd": -0.17389833537352584
+    },
+    {
+      "year": 2026,
+      "return": 0.05336866063538781,
+      "max_dd": -0.12660258894878829
+    }
+  ],
+  "yearly_nifty50": [
+    {
+      "year": 2022,
+      "return": 0.04328960480003197,
+      "max_dd": -0.1646593406030693
+    },
+    {
+      "year": 2023,
+      "return": 0.20027834130931543,
+      "max_dd": -0.07061546217241543
+    },
+    {
+      "year": 2024,
+      "return": 0.08804772615806411,
+      "max_dd": -0.10932807593868799
+    },
+    {
+      "year": 2025,
+      "return": 0.1050885922496505,
+      "max_dd": -0.0870656264814278
+    },
+    {
+      "year": 2026,
+      "return": -0.11417891063587415,
+      "max_dd": -0.1556010444341479
+    }
+  ],
+  "caveat": "Current Nifty 500 members for full history (survivorship bias). Yahoo adjusted close."
+}
